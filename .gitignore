@@ -1,0 +1,34 @@
+preppilot/users.json
+__pycache__/
+*.pyc
+.env
+
+preppilot/.test-deps/
+preppilot/.test-data/
+preppilot/users.json.tmp
+
+preppilot/.runtime/
+preppilot/.qa/
+/.qa/
+
+# Local environments and private build history
+.venv/
+venv/
+.env.*
+!.env.example
+session/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+repo-export/
+QUIZBOT-github-ready.zip
+preppilot/papers/
+.impeccable/
+
+# Private durable application data
+preppilot/*.sqlite3
+preppilot/*.sqlite3-*
+
+# Browser-automation logs
+.playwright-mcp/
